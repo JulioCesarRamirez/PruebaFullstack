@@ -1,23 +1,52 @@
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Este es un ejercicio que te lleva a descubri varias pruebas hasta resolver un ejercicio final
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+El ejercicio solo te da una frase que dice riddle me this is "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f"
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Una vez convertida la cadena hexadecimal "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f" a ascii el resultado es http://grandpa-challenge.github.io/
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+## Demo
+<tr>
+<td>
+<img src="img/dangerous.png" width="45%" />
+</td>
+</tr>
 
 ## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
+...
+<html>
+<head>
+  <title>SHA1</title>
+  <style></style>
+<!--grandpa-challenge.appspot.com-->
+<!--grandpa-challenge.appspot.com-->
+<!--grandpa-challenge.appspot.com-->
+<!--grandpa-challenge.appspot.com-->
+<!--
+Still round the corner there may wait
+A new road or a secret gate
+And though I oft have passed them by
+A day will come at last when I
+Shall take the hidden paths that run
+West of the Moon, East of the Sun.
+-->
+<!--grandpa-challenge.appspot.com-->
+<!--grandpa-challenge.appspot.com-->
+<!--grandpa-challenge.appspot.com-->
+<!--grandpa-challenge.appspot.com-->
+</head>
+<body>
+<img title ="HMAC" alt="HMAC" src="img/dangerous.png" style="width:800; height:600; margin-left:auto; margin-right:auto; display:block;">
+</body>
+</html>
+...
 ## Tests
 
 Describe and show how to run the tests with code examples.
