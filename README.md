@@ -21,7 +21,7 @@ Esta imagen solo dice es peligroso ir solo, toma esto: 7981 , me pregunto para q
 
 ## Inspeccionando el codigo
 
-Si precionamoa las techas Control+Shift+I podemos inspeccionar el codigo y ver lo siguiente aqui las pistas son el url grandpa-challenge.appspot.com, SHA1 y HMAC
+Si precionamos las teclas Control+Shift+I podemos inspeccionar el codigo y ver lo siguiente, aqui las pistas son el url grandpa-challenge.appspot.com, SHA1 y HMAC
 
 ```sh
 	<html>
@@ -51,21 +51,20 @@ Si precionamoa las techas Control+Shift+I podemos inspeccionar el codigo y ver l
     </html>
 ```
 
-...
-
-...
-## Gernarando el Hash 
+## Generando el Hash 
 Me hubiera gustado generar mi propia herramienta pero por cuestiones de tiempo podemos usar la herramienta http://hash.online-convert.com/sha1-generator. Este generador de hash en línea convierte  datos sensibles como contraseñas a un hash SHA-1. Para mayor seguridad del proceso de cifrado puede definir una clave HMAC la cual se nos dio en la imagen.
-Nos genera la cadena f4d8d7f97ffa63e4309320c45b5e6166a784cfaa la cual introducimos en el textbox del url http://grandpa-challenge.appspot.com/
+Al procesarlo nos genera la cadena f4d8d7f97ffa63e4309320c45b5e6166a784cfaa la cual introducimos en el textbox del url http://grandpa-challenge.appspot.com/
 
 
 <tr>
 <td>
-<img src="img/hash.png" width="45%" />
+<img src="img/hash.PNG" width="45%" />
 </td>
 </tr>
 
-##Problema
+## Problema
+
+Una vez adentro vemos lo siguiente:
 
 Usted recibe un crédito C en una tienda local y le gustaría comprar dos artículos. En primer lugar camina a través de la tienda y crea una lista L de todos los elementos disponibles. De esta lista le gustaría comprar dos artículos que sumen el valor total del crédito. La solución que usted proporciona consistirá de los dos números enteros que indican las posiciones de los artículos en su lista (elnúmero más pequeño primero).
 
@@ -100,3 +99,7 @@ Salida
 Caso # 1: 2 3
 Caso # 2: 1 4
 Caso # 3: 4 5
+
+## Finalmente
+
+El codigo esta hecho en java y lo puedes ver en el repositorio....HAPPY CODING!!!
