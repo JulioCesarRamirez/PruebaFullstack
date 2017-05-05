@@ -72,10 +72,10 @@ Usted recibe un crédito C en una tienda local y le gustaría comprar dos artíc
 
 La primera línea de entrada da el número de casos, N. N casos de prueba siguen. Para cada caso de prueba habrá:
 
-..*Una línea que contiene el valor C, la cantidad de crédito que tiene en la tienda.
-..*Una línea que contiene el valor I, el número de elementos en el almacén.
-..*Una línea que contiene una lista separada por espacios de I enteros. Cada entero P indica el precio de un elemento en el almacén.
-..*Cada caso de prueba tendrá exactamente una solución.
+* Una línea que contiene el valor C, la cantidad de crédito que tiene en la tienda.
+* Una línea que contiene el valor I, el número de elementos en el almacén.
+* Una línea que contiene una lista separada por espacios de I enteros. Cada entero P indica el precio de un elemento en el almacén.
+* Cada caso de prueba tendrá exactamente una solución.
 
 ### Salida
 
