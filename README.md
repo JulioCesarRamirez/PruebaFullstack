@@ -4,13 +4,13 @@ Este es un divertido ejercicio que pone aprueba tus conocimientos de criptograf�
 
 ## Procedimiento
 
-El ejercicio solo te da una frase que dice riddle me this is "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f"
+El ejercicio solo te da una frase que dice riddle me this: "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f"
 
-## Conversion hexadecimal a ascii
+## Conversion hexadecimal a ASCII
 Si notamos es una cadena hexadecimal que podemos convertir en ASCII el código de conversión esta disponible en este repocitorio
 Una vez convertida la cadena hexadecimal "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f" a ASCII el resultado es http://grandpa-challenge.github.io/ asi que nos dirigimoa a dicho sitio
 
-## OH una llave!!!
+## ¡Oh! una llave!!!
 Esta imagen solo dice es peligroso ir solo, toma esto: 7981, me pregunto para que será ese número?, Hmmm ,será la clave secreta compartida utilizada para la variante HMAC de SHA1???
 
 <tr>
@@ -19,7 +19,7 @@ Esta imagen solo dice es peligroso ir solo, toma esto: 7981, me pregunto para qu
 </td>
 </tr>
 
-## Inspeccionando el codigo
+## Inspeccionando el código
 
 Si presionamos las teclas Control+Shift+I podemos inspeccionar el código y ver lo siguiente, aquí las pistas son el url grandpa-challenge.appspot.com, SHA1 y HMAC
 
@@ -52,6 +52,7 @@ Si presionamos las teclas Control+Shift+I podemos inspeccionar el código y ver 
 ```
 
 ## Generando el Hash 
+
 Me hubiera gustado generar mi propia herramienta pero por cuestiones de tiempo podemos usar la herramienta http://hash.online-convert.com/sha1-generator. Este generador de hash en línea convierte  datos sensibles como contraseñas a un hash SHA-1. Para mayor seguridad del proceso de cifrado puede definir una clave HMAC la cual se nos dio en la imagen.
 Al procesarlo nos genera la cadena f4d8d7f97ffa63e4309320c45b5e6166a784cfaa la cual introducimos en el textbox del url http://grandpa-challenge.appspot.com/
 
