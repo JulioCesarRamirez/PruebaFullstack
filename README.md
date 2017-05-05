@@ -68,21 +68,22 @@ Una vez adentro vemos lo siguiente:
 
 Usted recibe un crédito C en una tienda local y le gustaría comprar dos artículos. En primer lugar camina a través de la tienda y crea una lista L de todos los elementos disponibles. De esta lista le gustaría comprar dos artículos que sumen el valor total del crédito. La solución que usted proporciona consistirá de los dos números enteros que indican las posiciones de los artículos en su lista (elnúmero más pequeño primero).
 
-Entrada
+### Entrada
 
 La primera línea de entrada da el número de casos, N. N casos de prueba siguen. Para cada caso de prueba habrá:
 
-Una línea que contiene el valor C, la cantidad de crédito que tiene en la tienda.
-Una línea que contiene el valor I, el número de elementos en el almacén.
-Una línea que contiene una lista separada por espacios de I enteros. Cada entero P indica el precio de un elemento en el almacén.
-Cada caso de prueba tendrá exactamente una solución.
+..*Una línea que contiene el valor C, la cantidad de crédito que tiene en la tienda.
+..*Una línea que contiene el valor I, el número de elementos en el almacén.
+..*Una línea que contiene una lista separada por espacios de I enteros. Cada entero P indica el precio de un elemento en el almacén.
+..*Cada caso de prueba tendrá exactamente una solución.
 
-Salida
+### Salida
 
 Para cada caso de prueba, genere una línea que contiene "Caso # x:" seguido de los índices de los dos artículos cuyo suma es el precio del crédito de la tienda. El índice inferior debe ser la primera salida .
 
 Muestra:
 
+```sh
 Entrada
 3
 100
@@ -99,6 +100,7 @@ Salida
 Caso # 1: 2 3
 Caso # 2: 1 4
 Caso # 3: 4 5
+```
 
 ## Finalmente
 
