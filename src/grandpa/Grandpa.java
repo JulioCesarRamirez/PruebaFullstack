@@ -36,10 +36,11 @@ public class Grandpa {
             credit_value = reader.nextInt();
             item_cnt = reader.nextInt();
             IntStream.range(0, item_cnt).forEach((j) -> prices.add(j, reader.nextInt()));
+            
             solution();
 
         }
-        PrintWriter f0 = new PrintWriter(new FileWriter("C:/Users/vhern/Documents/NetBeansProjects/grandpa/src/grandpa/output.txt"));
+        PrintWriter f0 = new PrintWriter(new FileWriter("C:/Users/vhern/Documents/NetBeansProjects/grandpa/src/grandpa/results.txt"));
         for (String s : output) {
 
             f0.println(s);
@@ -53,7 +54,10 @@ public class Grandpa {
         
         for (int i = 0; i < item_cnt; ++i) {
             if (prices.contains(credit_value - prices.get(i))) {
+                System.out.println(i+1);
                 output.add("Case #" + ++case_num + ": " + (i + 1) + " " + (prices.lastIndexOf(credit_value - prices.get(i)) + 1));
+                //System.out.println(prices.lastIndexOf(credit_value - prices.get(i)));
+                System.out.println(credit_value - prices.get(i));
                 
                 return;
             }
