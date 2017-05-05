@@ -40,7 +40,7 @@ public class Grandpa {
             solution();
 
         }
-        PrintWriter f0 = new PrintWriter(new FileWriter("C:/Users/vhern/Documents/NetBeansProjects/grandpa/src/grandpa/results.txt"));
+        PrintWriter f0 = new PrintWriter(new FileWriter("C:/Users/vhern/Documents/NetBeansProjects/grandpa/src/grandpa/output.txt"));
         for (String s : output) {
 
             f0.println(s);
@@ -56,7 +56,6 @@ public class Grandpa {
             if (prices.contains(credit_value - prices.get(i))) {
                 System.out.println(i+1);
                 output.add("Case #" + ++case_num + ": " + (i + 1) + " " + (prices.lastIndexOf(credit_value - prices.get(i)) + 1));
-                //System.out.println(prices.lastIndexOf(credit_value - prices.get(i)));
                 System.out.println(credit_value - prices.get(i));
                 
                 return;
