@@ -6,7 +6,7 @@ Este es un divertido ejercicio que pone aprueba tus conocimientos de cryptografi
 
 El ejercicio solo te da una frase que dice riddle me this is "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f"
 
-## Conversion hexadecimal a ascci
+## Conversion hexadecimal a ascii
 Si notamos es una cadena hexadecimal que podemos convertir en ascii el codigo de conversion esta diponible en este repo 
 Una vez convertida la cadena hexadecimal "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f" a ascii el resultado es http://grandpa-challenge.github.io/ asi que nos dirigimoa a dicho sitio
 
