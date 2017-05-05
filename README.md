@@ -1,17 +1,17 @@
 ## Synopsis
 
-Este es un divertido ejercicio que pone aprueba tus conocimientos de cryptografia, conversiones hexadecimales a ascii y programacion, completando  pruebas que te llevan a resolver un ejercicio final
+Este es un divertido ejercicio que pone aprueba tus conocimientos de criptografía, conversiones hexadecimales a ASCII y programación, completando pruebas que te llevan a resolver un ejercicio final
 
 ## Procedimiento
 
 El ejercicio solo te da una frase que dice riddle me this is "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f"
 
 ## Conversion hexadecimal a ascii
-Si notamos es una cadena hexadecimal que podemos convertir en ascii el codigo de conversion esta diponible en este repo 
-Una vez convertida la cadena hexadecimal "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f" a ascii el resultado es http://grandpa-challenge.github.io/ asi que nos dirigimoa a dicho sitio
+Si notamos es una cadena hexadecimal que podemos convertir en ASCII el código de conversión esta disponible en este repocitorio
+Una vez convertida la cadena hexadecimal "687474703a2f2f6772616e6470612d6368616c6c656e67652e6769746875622e696f2f" a ASCII el resultado es http://grandpa-challenge.github.io/ asi que nos dirigimoa a dicho sitio
 
 ## OH una llave!!!
-Esta imagen solo dice es peligroso ir solo, toma esto: 7981 , me pregunto para que sera ese numero?, Hmmm ,sera la clave secreta compartida utilizada para la variante HMAC de SHA1???
+Esta imagen solo dice es peligroso ir solo, toma esto: 7981, me pregunto para que será ese número?, Hmmm ,será la clave secreta compartida utilizada para la variante HMAC de SHA1???
 
 <tr>
 <td>
@@ -21,7 +21,7 @@ Esta imagen solo dice es peligroso ir solo, toma esto: 7981 , me pregunto para q
 
 ## Inspeccionando el codigo
 
-Si precionamos las teclas Control+Shift+I podemos inspeccionar el codigo y ver lo siguiente, aqui las pistas son el url grandpa-challenge.appspot.com, SHA1 y HMAC
+Si presionamos las teclas Control+Shift+I podemos inspeccionar el código y ver lo siguiente, aquí las pistas son el url grandpa-challenge.appspot.com, SHA1 y HMAC
 
 ```sh
 	<html>
@@ -104,4 +104,4 @@ Caso # 3: 4 5
 
 ## Finalmente
 
-El codigo esta hecho en java y lo puedes ver en el repositorio....HAPPY CODING!!!
+El código esta hecho en java y lo puedes ver en el repositorio....HAPPY CODING!!!
